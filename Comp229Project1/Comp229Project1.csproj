@@ -156,6 +156,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\india.png" />
+    <Content Include="Assets\logo.jpg" />
     <Content Include="LogIn.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Week2.aspx" />
@@ -415,7 +417,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
