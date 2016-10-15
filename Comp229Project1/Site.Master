@@ -13,7 +13,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Project 1</title>
+    <title><%: Page.Title %> Project 1</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -82,13 +82,22 @@
                 </div>
             </div>
         </div>
+
+        <img src="Assets/logo.jpg" />
+        
         <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" >
+                
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; Project 1 </p>
-            </footer>
+            
+           <!-- Footer Bar -->
+        <footer role="contentinfo">
+            <nav class="navbar navbar-default navbar-fixed-bottom">
+                <div class="container">
+                    <h4>&copy; 2016 - My ASP.NET- Project1 @ Sachindeep Singh-300880986 @ Dinesh Palle-300705309</h4>
+                </div>
+            </nav>
+        </footer>
         </div>
     </form>
 </body>

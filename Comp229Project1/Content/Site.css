@@ -2,6 +2,8 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image:url(http://ccl6t.com/wp-content/uploads/2015/10/Dubai-International-Cricket-Stadium.jpg) ;
+    
 }
 
 /* Wrapping element */
@@ -9,6 +11,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -31,8 +34,69 @@ input[type="select"] {
 @media screen and (min-width: 768px) {
     .jumbotron {
         margin-top: 20px;
+        min-height:300px;
     }
     .body-content {
         padding: 0;
     }
+}
+.table1{
+    float:left;
+    width: 40%;
+    margin-left: 7%;
+    border: 5px solid red;
+    background-color:aqua;
+    margin-bottom: 5%;
+}
+
+.table2{
+    float:left;
+    width: 40%;
+    margin-left: 8%;
+    border: 5px solid red;
+    background-color:green;
+    margin-bottom: 5%;
+}
+
+.team{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    width: 35%;
+    height:auto;
+    border-radius:100%;
+    background-color:darkcyan;
+}
+
+
+.tname{
+    text-align:center;
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+}
+.legend{
+    width:inherit; /* Or auto */
+    padding:0 10px; 
+    border-bottom:none;
+}
+fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px solid black;
+}
+
+.field{
+    margin-bottom:4%;
+}
+
+.log{
+    width: 25%;
+    margin:auto;
+    
 }
