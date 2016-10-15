@@ -6,7 +6,7 @@
 <%-- Default.aspx file --%>
 <%-- Github :- https://github.com/pdineshyadav/Comp229Project1 --%>
 <%-- Azure :- http://comp229project1.azurewebsites.net/ --%>
-<%-- Discription:- This is the Default page of this site --%>
+<%-- Discription:- This is the Default page of this site  --%>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
